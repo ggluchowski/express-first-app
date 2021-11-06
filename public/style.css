@@ -2,3 +2,29 @@ h1 {
   font-weight: lighter;
   font-style: italic;
 }
+
+.dark{
+  background-color: #000;
+  color:#fff;
+}
+
+.dark .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.dark a {
+  text-decoration: none;
+  color: rgb(240, 251, 76);
+}
+
+.container {
+  width: 996px;
+}
+
+.image {
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+
+}
